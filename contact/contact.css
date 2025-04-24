@@ -1,0 +1,431 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* universal container started */
+.container {
+    width: 100%;
+    max-width: 1430px;
+    margin: 0px auto;
+
+}
+
+/* universal container started */
+
+
+/* Color Variables started */
+:root {
+    --orange: #ea876c;
+}
+
+/* Color Variables ended */
+
+/* header css started.. */
+header {
+    padding: 15px 40px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+
+}
+
+.logo img {
+    width: 180px;
+}
+
+/* header css ended.. */
+
+/* herobanner section css start */
+.herobanner-parent{
+    background-color: #f6f3fe;
+    border-radius: 40px;
+    position: relative;
+    top: 100px;
+    overflow: hidden;
+    padding: 200px;
+
+}
+.hero-banner-img-1{
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+.hero-banner-img-2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* herobanner section css end */
+
+/* info section started */
+.info{
+    position: relative;
+}
+.info-parent{
+    padding:100px 0px 0px 0px;
+    margin: 120px 0px;
+}
+.info-child-1{
+    width: calc(33.33% - 50px);
+    background-color: #FAF8FF;
+    border-radius: 20px;
+    padding: 50px;
+}
+.location-parent{
+   margin-bottom: 200px;
+}
+.map{
+    width: 100%;
+}
+
+/* info section ended */
+
+/* talk css started */
+
+.talf-to-specalist{
+    background-color:#18185E ;
+}
+
+.talk {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    bottom: 84px;
+
+}
+
+.talk img {
+    position: absolute;
+    bottom: 0;
+}
+
+.talk-rocket {
+    position: absolute;
+    left: 92%;
+    animation: graph 2s ease-in-out infinite alternate-reverse;
+}
+.stay-h1{
+    position: relative;
+    left: 70px;
+}
+
+/* talk css ended */
+
+
+/* footer section started */
+.f1 span a:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer-move {
+    transition: 1s;
+}
+
+.footer-move:hover {
+    transform: translateX(10px);
+}
+
+.btmline {
+    transition: 1s;
+}
+
+.btmline:hover {
+    border-bottom: 1px solid white;
+    animation: slide 1s;
+}
+
+@keyframes slide {
+    0% {
+        border-bottom-width: 0;
+    }
+
+    100% {
+        border-bottom-width: 100%;
+    }
+}
+.name h4 {
+	font-family: "Grechen Fuemen", serif;
+	text-align: center;
+	padding: 20px;
+	font-weight: 600;
+}
+
+.name h4 span {
+	color: rgb(31, 36, 187);
+	font-family: "Grechen Fuemen", serif;
+	font-size: 18px;
+}
+/* footer section ended */
+
+
+
+
+
+@media (max-width : 600px) {
+    header.dflex.jcsb.aic.w100.bgc-white {
+        display: none;
+    }
+    .herobanner {
+        width: 100%;
+    }
+    .herobanner-parent{
+        background-color: #f6f3fe;
+        border-radius: 40px;
+        position: relative;
+        top:10px;
+        overflow: hidden;
+        padding: 100px;
+    
+    }
+    .herobanner h5{
+        width: 95%;
+    }
+
+    .hero-btns {
+       gap: 100px;
+    }
+
+
+    .info{
+        width: 100%;
+        margin: 30px 0px;
+        padding-top: 10px;
+    }
+    .info-parent{
+        width: 100%;
+        flex-direction: column;
+        padding: 10px 0px 0px 0px !important;
+        margin: 10px 0px;
+    }
+    .info-child-1{
+        width: 100%;
+    }
+
+
+    .location-parent{
+        flex-direction: column;
+    }
+    .tblres{
+        flex-direction: column;
+    }
+    .tblres div{
+        flex-direction: column;
+        width: 100%;
+    }
+    .location{
+        padding: 20px;
+    }
+
+
+
+    .talf-to-specalist{
+        position: relative;
+        top:0px;
+    }
+    .talk-parent{
+        position: relative;
+        bottom: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    .talk-parent img{
+        display: none;
+    }
+    .stay-h1 {
+        position: relative;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 30px;
+    }
+
+
+    
+    
+    footer{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .footer-1 {
+        width: 100%;
+        flex-direction: column;
+        padding-bottom: 5px;
+        padding-top: 20px;
+    
+    }
+    .f1{
+        width: 100%;
+    }
+    .f2{
+        width: 100%;
+    }
+    .f3{
+        width: 100%;
+    }
+    .f4{
+        width: 100%;
+    }
+    .footer-2{
+        display: none;
+    }
+
+}
+
+
+
+
+@media (min-width : 601px) and (max-width :1024px) {
+    .header {
+        width: 100%;
+        gap: 50px;
+        justify-content: center;
+        padding: 22px 0px;
+        margin: 0;
+    }
+    .logo img {
+        width: 120px;
+    }
+    .nav-btn{
+        gap: 25px;
+    }
+    .hdr-btn{
+        font-size: 10px;
+        font-weight: 400;
+        padding: 13px 15px;
+    }
+
+    .herobanner{
+        width: 100%;
+    }
+
+    .herobanner-parent{
+        width: 100%;
+        padding: 150px;
+    }
+
+    .info-parent {
+        padding: 100px 0px 0px 0px;
+        margin: 55px 0px;
+        flex-wrap: wrap;
+    }
+    .info-child-1 {
+        width: calc(30% - 30px);
+        background-color: #FAF8FF;
+        border-radius: 20px;
+        padding: 50px 20px;
+    }
+    .info-child-2 {
+        width: calc(40% - 30px);
+    }
+    .info-child-1 i{
+        font-size: 45px;
+    }
+    .info-child-1 h2{
+        font-size: 20px;
+    }
+    .info-child-1 p{
+        font-size: 16px;
+    }
+
+
+    .talf-to-specalist{
+        position: relative;
+        top:10px;
+        padding: 0px;
+    }
+    .talk {
+        bottom: 54px;
+    }
+    .talk-parent{
+        position: relative;
+        bottom: 0px;
+        align-items: center;
+        justify-content: right;
+        flex-wrap: wrap;
+        padding: 40px;
+    
+    }
+    .talk-parent h1{
+        width: 40%;
+        font-size: 18px;
+    }
+    .talk-parent button{
+        width: 30%;
+        font-size: 12px;
+        padding: 12px 15px;
+    }
+    .talk-img{
+        display: block;
+        width: 30%;
+        position: absolute;
+        left: 10px;
+    }
+    .stay-h1 {
+        position: relative;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .location-parent{
+        width: 95%;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-bottom: 150px;
+    }
+
+    .talk-rocket{
+        top: 60%;
+        left: 90%;
+
+    }
+    .talk-rocket-img{
+        width: 100px !important;
+    }
+
+
+
+    footer{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .footer-1 {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 5px;
+        padding-top: 20px;
+        gap: 30px;
+    
+    }
+    .f1{
+        width:calc(50% - 20px);
+    }
+    .f2{
+        width:calc(50% - 20px);
+        padding-left: 11%;
+    }
+    .f3{
+        width:calc(50% - 20px);
+    }
+    .f4{
+        width:calc(50% - 20px);
+        padding-left: 11%;
+    }
+    .footer-2{
+        display: none;
+    }
+
+
+}

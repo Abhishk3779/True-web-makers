@@ -1,0 +1,413 @@
+/* padding utility classes stated.. */
+.pd50 {
+    padding:50px;
+}
+
+.pd10 {
+    padding: 10px;
+}
+
+.pd-btm60 {
+    padding-bottom: 60px !important;
+}
+
+.pd13 {
+    padding: 13px;
+}
+
+.pd70 {
+    padding: 70px;
+}
+.pdftr2 {
+    padding: 40px 70px;
+}
+.pd21{
+    padding: 15px;
+}
+.input-pd{
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.pd20 {
+    padding: 40px 20px;
+}
+.pd5{
+    padding: 5px;
+}
+.pdftr{
+    padding: 120px 20px;
+}
+.w40{
+    width: 40%;
+}
+.pdtop{
+    padding-top: 10px;
+}
+.pd-btm20{
+    padding-bottom: 20px;
+}
+
+/* padding utility classes ended.. */
+
+/* width utility classes started.. */
+.w33 {
+    width: calc(33.33% - 20px);
+}
+
+.w100 {
+    width: 100%;
+}
+.w80{
+    width: 80%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w25 {
+    width: 25%;
+}
+.fs10{
+font-size: 13px;
+}
+.h300{
+    height: 300px;
+}
+
+/* width utility classes ended.. */
+
+
+/* flex utility classes started.. */
+.dflex {
+    display: flex;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.fwrap {
+    flex-wrap: wrap;
+}
+
+.gap50 {
+    gap: 50px;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.aic {
+    align-items: center;
+}
+
+.tac {
+    text-align: center;
+}
+.tal{
+    text-align: left;
+}
+.blog-width25{
+    width: calc(25% - 16px);
+}
+/* flex utility classes ended.. */
+
+
+/* button1 utility classes started.. */
+.btn-padding {
+    padding: 18px 35px;
+}
+.btn4-padding {
+    padding: 13px 30px;
+}
+
+.bdr-radius {
+    border-radius: 30px;
+}
+
+.bdr-none {
+    border: none;
+}
+.form-rd{
+    border-radius: 10px;
+}
+
+.btn-bgc {
+    background-color: #0f1131;
+}
+.blue-bgc{
+    background-color: #18012D;
+}
+.btn-bgc4 {
+    background-color:#2f134ae0;
+}
+.btn2-padding {
+    padding: 10px 30px;
+    border: 1px solid gray;
+}
+.cta-bgc{
+    background-color: #F6F3FE;
+}
+.ipt-bgc{
+    background-color: #f4f4f6;
+    border: 1px solid rgb(204, 202, 209);
+}
+/* button1 utility classes ended.. */
+
+
+/* font utility classes started.. */
+.fw600 {
+    font-weight: 600;
+}
+.fw400 {
+    font-weight: 400;
+}
+
+.ff-arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+
+.fs18 {
+    font-size: 18px;
+}
+.fs14 {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+.fs23 {
+    font-size: 23px;
+}
+.fs26{
+    font-size: 24px;
+}
+.fs50 {
+    font-size: 80px;
+    font-weight: 100;
+    color: #9153f4;
+}
+.ff-sanf{
+    font-family: sans-serif;
+}
+
+/* font utility classes ended.. */
+
+
+/*color utility classes started.. */
+.blue-clr {
+    color: #0f1131;
+}
+
+.bgc-white {
+    background-color: white;
+}
+
+.btn2-clr {
+    color: rgb(84, 83, 83);
+}
+
+.clrwhite {
+    color: white;
+}
+
+.clrblk {
+    color: black;
+}
+.clrgray{
+    color: rgb(112, 111, 111);
+}
+.bgc-orange{
+    background-color: #ec562c;
+}
+.clrblue{
+    color: #0f1131;
+}
+.clrred{
+    color: red;
+}
+.bgc-gray {
+    background-color: rgba(245, 245, 245, 0.703);
+}
+.clricon{
+    color: #240CF2;
+}
+/* color utility classes ended.. */
+
+
+/* button3 utility classes started.. */
+.btn3-clr {
+    background: linear-gradient(90deg, #240CF2 0%, #00A9B5 100%);
+    /* Gradient from blue to light blue */
+    background-clip: text;
+    /* Applies gradient to text */
+    -webkit-text-fill-color: transparent;
+    /* Makes the text show the gradient */
+    display: inline-block;
+}  
+.hdbgc{
+    background-color: #EBEDFF;
+}
+
+/* button3 utility classes ended.. */
+
+/* style utility classes stated.. */
+
+.txtdec {
+    text-decoration: none;
+}
+
+.lststyle {
+    list-style: none;
+}
+
+.m0 {
+    margin: 0 auto;
+}
+
+.bdr {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.m40 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.m40-auto {
+    margin:40px 45%;
+    
+}
+.br{
+    border-radius: 10px;
+}
+.lh26{
+    line-height: 26px;
+}
+.b-shadow{
+    box-shadow: 3px 3px 10px rgb(207, 207, 207);
+}
+.z-idx{
+    z-index: 7;
+}
+.w180{
+    width: 180px;
+}
+.w70{
+    width: 80px;
+    height: 90px;
+}
+.bdr-rd{
+    border-radius: 15px;
+}
+.mbtm12{
+    margin-bottom: 12px;
+}
+.mbtm6{
+    margin-bottom: 6px;
+}
+.mbtm30{
+    margin-bottom: 30px;
+}
+.mbtm70{
+    margin-bottom: 70px;
+}
+.mbtm20{
+    margin-bottom: 20px;
+}
+.fs30{
+    font-size:30px;
+}
+.hgt2{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+}
+.hgt1{
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+}
+.mdiv{
+    margin: 10px 17px 25px 17px ;
+}
+.dspn{
+    display: none;
+}
+
+.bg-none{
+    background: none;
+}
+.hgt50{
+    height: 150px;
+}
+.hgt179{
+    height: 155px;
+}
+.hgt380{
+    height: 350px;
+}
+.hgt400{
+    height: 370px;
+}
+.hgt420{
+    height: 380px;
+}
+.hgt450{
+    height: 420px;
+}
+.hgt177{
+    height: 156px;
+}
+.hgt185{
+    height: 165px;
+}
+.hgt250{
+    height: 220px;
+}
+.ovrh{
+    overflow: hidden;
+}
+.hight900{
+    height: 1000px;
+}
+.zidx2{
+    z-index: 3;
+}
+.w90{
+    width: 80px;
+}
+.fs35{
+    font-size: 35px;
+}
+.linhgt{
+    line-height: 20px;
+}
+.fw500{
+    font-weight: 500;
+}
+/* style utility classes ended.. */
+/* position started */
+.pstn-r{
+    position: relative;
+}
+.btm0{
+    bottom: 0;
+}
+.pstn-a{
+    position: absolute;
+}
+/* position started */
